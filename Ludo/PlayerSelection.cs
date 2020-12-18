@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ludo
 {
-    public partial class Game : Form
+    public partial class PlayerSelection : Form
     {
-        public Game()
+        public PlayerSelection()
         {
             InitializeComponent();
         }
