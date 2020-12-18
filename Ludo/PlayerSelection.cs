@@ -21,7 +21,7 @@ namespace Ludo
             InitializeComponent();
 
 
-            
+
 
         }
 
@@ -77,6 +77,13 @@ namespace Ludo
             {
                 btnStart.Visible = true;
             }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            Game game = new Game(this);
+            this.Hide();
+            game.Show();
         }
     }
 }
